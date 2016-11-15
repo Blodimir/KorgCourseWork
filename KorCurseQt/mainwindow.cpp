@@ -151,7 +151,9 @@ void MainWindow::on_pushButton_2_clicked()
              }
            }
     else
-    { ui->lineEdit->setText("Ошибка, ожидалась переменная после слова строка");}
+      {
+       ui->lineEdit->setText("Ошибка, ожидалась переменная после слова строка");
+      }
 
         }
 
@@ -164,7 +166,7 @@ void MainWindow::on_pushButton_2_clicked()
 //qDebug() <<  Number_String;
      spisok_perem_glob=spisok_perem_glob+spisok_perem;
 
-    }
+    }//скобка окончания цикла строк
 
   }
   else ui->lineEdit->setText("Ошибка, ожидалось большее количество строк, проверьте полноту и правильность табуляции программы");
