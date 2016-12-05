@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "dialog.h"
 #include "ui_dialog.h"
+#include "QLabel"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -187,6 +188,13 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_pushButton_4_clicked()
 {
+//    показываем в новом окне в label картинку(файл с ресурсом) задания на эту работу
     task = new Dialog;
     task->show();
+//        QLabel lbl;
+//        QPixmap pix( ":/images/images/Zadanie_na_kursach1.jpg" );
+//        lbl.setPixmap(pix);
+//        lbl.resize( pix.size() );
+//        lbl.show();
+
 }
