@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>10</y>
+      <y>50</y>
       <width>501</width>
-      <height>411</height>
+      <height>391</height>
      </rect>
     </property>
     <property name="font">
@@ -63,10 +63,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>944</x>
-      <y>532</y>
-      <width>101</width>
-      <height>51</height>
+      <x>980</x>
+      <y>530</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
@@ -77,7 +77,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>430</y>
+      <y>460</y>
       <width>1041</width>
       <height>31</height>
      </rect>
@@ -93,9 +93,9 @@
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>500</y>
+      <y>530</y>
       <width>341</width>
-      <height>81</height>
+      <height>51</height>
      </rect>
     </property>
    </widget>
@@ -105,7 +105,7 @@
       <x>40</x>
       <y>30</y>
       <width>481</width>
-      <height>371</height>
+      <height>411</height>
      </rect>
     </property>
    </widget>
@@ -113,13 +113,47 @@
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>470</y>
+      <y>500</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>Test Text 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>10</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Minion Pro SmBd</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>БНФ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>530</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show task</string>
     </property>
    </widget>
   </widget>

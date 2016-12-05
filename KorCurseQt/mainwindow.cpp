@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "dialog.h"
+#include "ui_dialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -181,4 +183,10 @@ void MainWindow::on_pushButton_3_clicked()
 {
    ui->textEdit->insertPlainText("начало\nМассив б1 р123\nСтрока с675\nКонец");
 
+}
+
+void MainWindow::on_pushButton_4_clicked()
+{
+    task = new Dialog;
+    task->show();
 }
